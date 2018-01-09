@@ -1,0 +1,828 @@
+body{
+    font-family: "微软雅黑", "Microsoft YaHei", "Microsoft YaHei UI", "Segoe UI", Arial, Verdana, Sans-Serif, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.course-banner{
+    width: 100%;
+}
+#arrow .container .row .course-class dl{
+    padding: 40px 10px;
+    background: #eee;
+}
+#arrow .container .row .course-class dl dt{
+    width: 110px;
+    height: 90px;
+    float:left;
+}
+#arrow .container .row .course-class dl dt img{
+    width: 100%;
+    height: 100%;
+}
+#arrow .container .row .course-class dl dd{
+    text-align: center;
+}
+#arrow .container .row .course-class dl dd p{
+    padding: 0;
+    margin: 0
+}
+
+/*------courseClass-----------*/
+.courseClass{
+    width: 100%;
+    height: 1000px;
+}
+.courseClass .title{
+    text-align: center;
+    position: relative;
+}
+.courseClass .title .box{
+    width: 50px;
+    height: 100px;
+    border:2px #18D3B4 solid;
+    margin: 0 auto;
+}
+.courseClass .title .title-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -12px;
+    margin-left: -100px;
+    background: #fff;
+    font-size: 24px;
+}
+.courseClass .title .title-content b{
+     color:#18D3B4;
+    font-weight: normal;
+}
+.courseClass .title .title-content span{
+    color:#18D3B4;
+}
+.courseClass .courseClass-cont{
+    margin: 0 auto;
+}
+.courseClass .courseClass-cont .titleClass{
+    width:850px;
+    margin: 0 auto;
+    padding-top: 64px;
+    
+}
+.courseClass .courseClass-cont .titleClass ul li{
+    list-style: none;
+    border:1px #18d3b4 solid;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    padding:0 20px;
+    line-height: 52px;
+}
+.courseClass .courseClass-cont .titleClass ul li span{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.courseClass .courseClass-cont .titleClass ul li span.math-w{
+    width: 70px;
+    height: 40px;
+}
+.courseClass .courseClass-cont .titleClass ul li span img{
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+}
+.courseClass .courseClass-cont .titleClass ul li.tabbg{
+    background: #18d4b3;
+    color: #fff;
+}
+.courseClass .courseClass-cont .titleClass ul li.tabbg span{
+    color: #fff;
+}
+.courseClass .courseClass-cont .titleClass-cont{
+    margin-top: 32px;
+}
+/*----------------------------english--------------------------*/
+.courseClass .courseClass-cont .titleClass-cont section{
+    display: none;
+}
+.courseClass .courseClass-cont .titleClass-cont .english{
+    width: 1200px;  
+    display: block;
+}
+.courseClass .courseClass-cont .titleClass-cont .english ul{
+    width: 350px;
+    margin: 15px auto;
+}
+.courseClass .courseClass-cont .titleClass-cont .english ul.english-title li{
+    display: inline-block;
+    text-align: center;
+    border: 1px #18d4b3 solid;
+    list-style: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.courseClass .courseClass-cont .titleClass-cont .english ul.english-title li.fontbg{
+    background: #18d4b3;
+    color: #fff;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content{
+    width: 1200px;
+    height: 720px;
+    padding: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li{
+    display: none;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li:nth-of-type(1){
+    display: block;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1{
+    width: 1200px;
+    height: 720px;
+    position: relative;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li{
+     display: inline-block;
+    line-height: 24px;
+    border-radius: 4px;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li .li-title-bg{
+    width: 240px;
+    height: auto;
+    background:#fff; 
+    text-align: center;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li .li-title-bg h4{
+    margin-bottom: 4px;
+    line-height: 32px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #000;
+    text-align: left;
+    padding: 0 10px;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li:nth-of-type(1){
+    width: 240px;
+    height: 300px;
+    background: #C9F7EF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li:nth-of-type(2){
+    width: 240px;
+    height: 400px;
+    background: #87EFE2;
+    position: absolute;
+    bottom: 0;
+    left: 240px;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li:nth-of-type(3){
+    width: 240px;
+    height: 480px;
+    background: #22E8D3;
+    position: absolute;
+    bottom: 0;
+    left: 480px;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li:nth-of-type(4){
+    width: 240px;
+    height: 600px;
+    background: #00E1C2;
+    position: absolute;
+    bottom: 0;
+    left: 720px;
+}
+.courseClass .courseClass-cont .titleClass-cont .english .english-content li ul.chu1 li:nth-of-type(5){
+    width: 240px;
+    height: 720px;
+    background: #00D7B2;
+    position: absolute;
+    bottom: 0;
+    left: 960px;
+}
+
+
+
+
+
+
+
+
+/*----------------------------math--------------------------*/
+.courseClass .courseClass-cont .titleClass-cont .math{
+    
+}
+.courseClass .courseClass-cont .titleClass-cont .math ul{
+    width: 350px;
+    margin: 15px auto;
+}
+.courseClass .courseClass-cont .titleClass-cont .math ul.math-title li{
+   display: inline-block;
+    text-align: center;
+    border: 1px #18d4b3 solid;
+    list-style: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.courseClass .courseClass-cont .titleClass-cont .math ul li.fontbg{
+    background: #18d4b3;
+    color: #fff;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content{
+    width: 1200px;
+    height: 400px;
+    padding: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li{
+    display: none;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li:nth-of-type(1){
+    display: block;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1{
+    width: 1200px;
+    height: 720px;
+    position: relative;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li{
+     display: inline-block;
+    line-height: 24px;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li .li-title-bg{
+    width: 240px;
+    height: auto;
+    background:#fff; 
+    text-align: center;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li .li-title-bg h4{
+    margin-bottom: 4px;
+    line-height: 32px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #000;
+    padding: 0 10px;
+    text-align: left;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li:nth-of-type(1){
+    width: 240px;
+    height: 240px;
+    background: #C9F7EF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li:nth-of-type(2){
+    width: 240px;
+    height: 360px;
+    background: #87EFE2;
+    position: absolute;
+    bottom: 0;
+    left: 240px;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li:nth-of-type(3){
+    width: 240px;
+    height: 480px;
+    background: #22E8D3;
+    position: absolute;
+    bottom: 0;
+    left: 480px;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li:nth-of-type(4){
+    width: 240px;
+    height: 600px;
+    background: #00E1C2;
+    position: absolute;
+    bottom: 0;
+    left: 720px;
+}
+.courseClass .courseClass-cont .titleClass-cont .math .math-content li ul.chu1 li:nth-of-type(5){
+    width: 240px;
+    height: 720px;
+    background: #00D7B2;
+    position: absolute;
+    bottom: 0;
+    left: 960px;
+}
+
+
+
+
+
+
+/*----------------------------chinese--------------------------*/
+.courseClass .courseClass-cont .titleClass-cont .chinese{
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese ul{
+    width: 350px;
+    margin: 15px auto;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese ul.chinese-title li{
+   display: inline-block;
+    text-align: center;
+    border: 1px #18d4b3 solid;
+    list-style: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese ul li.fontbg{
+    background: #18d4b3;
+    color: #fff;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content{
+    width: 1200px;
+    height: 400px;
+    padding: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li{
+    display: none;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li:nth-of-type(1){
+    display: block;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1{
+    width: 1200px;
+    height: 720px;
+    position: relative;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li{
+     display: inline-block;
+    line-height: 24px;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li .li-title-bg{
+    width: 240px;
+    height: auto;
+    background:#fff; 
+    text-align: center;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li .li-title-bg h4{
+    margin-bottom: 4px;
+    line-height: 32px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #000;
+    text-align: left;
+    padding: 0 10px;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li:nth-of-type(1){
+    width: 240px;
+    height: 300px;
+    background: #C9F7EF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li:nth-of-type(2){
+    width: 240px;
+    height: 360px;
+    background: #87EFE2;
+    position: absolute;
+    bottom: 0;
+    left: 240px;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li:nth-of-type(3){
+    width: 240px;
+    height: 480px;
+    background: #22E8D3;
+    position: absolute;
+    bottom: 0;
+    left: 480px;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li:nth-of-type(4){
+    width: 240px;
+    height: 600px;
+    background: #00E1C2;
+    position: absolute;
+    bottom: 0;
+    left: 720px;
+}
+.courseClass .courseClass-cont .titleClass-cont .chinese .chinese-content li ul.chu1 li:nth-of-type(5){
+    width: 240px;
+    height: 720px;
+    background: #00D7B2;
+    position: absolute;
+    bottom: 0;
+    left: 960px;
+}
+
+/*--------------------physics----------------------------*/
+.courseClass .courseClass-cont .titleClass-cont .physics{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.courseClass .courseClass-cont .titleClass-cont .physics dl dt{
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+}
+.courseClass .courseClass-cont .titleClass-cont .physics dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.courseClass .courseClass-cont .titleClass-cont .physics dl dd{
+    font-size: 48px;
+    color: #999;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/*--------------------chemistry----------------------------*/
+.courseClass .courseClass-cont .titleClass-cont .chemistry{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.courseClass .courseClass-cont .titleClass-cont .chemistry dl dt{
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+}
+.courseClass .courseClass-cont .titleClass-cont .chemistry dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.courseClass .courseClass-cont .titleClass-cont .chemistry dl dd{
+    font-size: 48px;
+    color: #999;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 16px;
+}
+/*-----------------teacher-team-------------------*/
+.teacher-team{
+    width: 100%;
+    height: 700px;
+    margin-top: 15px;
+    background: #eee;
+    padding-top: 40px;
+}
+.teacher-team .container .title{
+    text-align: center;
+    position: relative;
+}
+.teacher-team .container .title .box{
+    width: 50px;
+    height: 100px;
+    border:2px #18D3B4 solid;
+    margin: 0 auto;
+}
+.teacher-team .container .title p{
+    line-height: 30px;
+}
+.teacher-team .container .title .title-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -30px;
+    margin-left: -200px;
+    background: #eee;
+    font-size: 24px;
+}
+.teacher-team .container .title .title-content b{
+     color:#18D3B4;
+    font-weight: normal;
+}
+.teacher-team .container .title .title-content span{
+    color:#18D3B4;
+}
+.teacher-team .container .round{
+    width: 300px;
+    height: 300px;
+    border:2px #00D8B3 solid;
+    margin: 100px auto 0;
+    border-radius: 50%;
+    position: relative;
+}
+.teacher-team .container .round .round-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url(../img/round.png) no-repeat top center;
+    background-size: contain;
+    margin: 50px auto;
+}
+.teacher-team .container .round ul li{
+    width: 50px;
+    height: 50px;
+    background: #00d8b3;
+    border-radius: 50%;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.teacher-team .container .round ul li:nth-of-type(1){
+    position: absolute;
+    top:-20px;
+    left: 130px;
+    z-index: 2;
+}
+.teacher-team .container .round ul li:nth-of-type(2){
+    position: absolute;
+    top:100px;
+    right: -20px;
+}
+.teacher-team .container .round ul li:nth-of-type(3){
+    position: absolute;
+    top:240px;
+    right: 30px;
+}
+.teacher-team .container .round ul li:nth-of-type(4){
+    position: absolute;
+    top:250px;
+   left: 40px;
+}
+.teacher-team .container .round ul li:nth-of-type(5){
+    position: absolute;
+    top:100px;
+    left: -20px;
+}
+.teacher-team .container .round div h3{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+.teacher-team .container .round div p{
+   line-height: 18px;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.teacher-team .container .round .round-one{
+     position: absolute;
+    top:-85px;
+    left: 112px;
+}
+.teacher-team .container .round .round-one h3{
+    text-align: center;
+    
+}
+.teacher-team .container .round .round-two{
+     position: absolute;
+    top:120px;
+   right: -115px;
+}
+.teacher-team .container .round .round-two h3{
+    text-align: left;
+}
+.teacher-team .container .round .round-three{
+     position: absolute;
+    top:260px;
+   right: -65px;
+}
+.teacher-team .container .round .round-three h3{
+    text-align: left;
+}
+.teacher-team .container .round .round-four{
+     position: absolute;
+    top:270px;
+   left: -110px;
+}
+.teacher-team .container .round .round-four h3{
+    text-align: right;
+}
+.teacher-team .container .round .round-four p{
+    text-align: right;
+}
+.teacher-team .container .round .round-five{
+     position: absolute;
+    top:120px;
+   left: -140px;
+}
+.teacher-team .container .round .round-five h3{
+    text-align: right;
+}
+.teacher-team .container .round .round-five p{
+    text-align: right;
+}
+
+/*---------------analysisReport-------------*/
+.analysisReport{
+    width: 100%;
+    height: 796px;
+    min-width: 1200px;
+}
+.analysisReport .analysisReport-content{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.analysisReport .analysisReport-content .title{
+    text-align: center;
+    position: relative;
+}
+.analysisReport .analysisReport-content .title .box{
+    width: 50px;
+    height: 100px;
+    border:2px #18D3B4 solid;
+    margin: 0 auto;
+}
+.analysisReport .analysisReport-content .title p{
+    line-height: 30px;
+}
+.analysisReport .analysisReport-content .title .title-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -12px;
+    margin-left: -100px;
+    background: #fff;
+    font-size: 24px;
+}
+.analysisReport .analysisReport-content .title .title-content b{
+     color:#18D3B4;
+    font-weight: normal;
+}
+.analysisReport .analysisReport-content .title .title-content span{
+    color:#18D3B4;
+}
+.analysisReport .analysisReport-content .myjor-test{
+    float: right;
+    position: relative;
+    z-index: 10;
+    margin-right: -120px;
+}
+.analysisReport .analysisReport-content .myjor-test .myjor-test-cont{
+    margin-top: 160px;
+}
+.analysisReport .analysisReport-content .myjor-test .myjor-test-cont p{
+    font-size: 20px;
+    line-height: 32px;
+    color:#666;
+}
+.analysisReport .analysisReport-content .myjor-test .myjor-test-cont p:nth-of-type(2){
+    margin-bottom: 32px;
+}
+.analysisReport .analysisReport-content .myjor-test .myjor-test-cont ul li{
+    line-height: 24px;
+    color:#333;
+    font-size: 14px;
+}
+.analysisReport .analysisReport-content .subject-test{
+    position: relative;
+}
+.analysisReport .analysisReport-content .subject-test .test{
+     width:976px;
+    height:560px;
+    background:url(../img/part4_computer.png);
+    background-repeat: no-repeat;
+     background-position: center;
+    position: absolute;
+    left: 0;
+    top: 64px;
+}
+.analysisReport .analysisReport-content .subject-test .test .g4{
+     width: 720px;
+    height: 450px;
+    position: absolute;
+    top:40px;
+    left: 128px;
+    overflow: hidden;
+}
+/*.analysisReport .analysisReport-content .subject-test .test{
+     width:976px;
+    height:560px;
+    background:url(../img/part4_computer.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 64px;
+    overflow: hidden;
+}
+.analysisReport .analysisReport-content .subject-test .stu-video-part{
+    width: 720px;
+    height: 450px;
+    position: absolute;
+    top:40px;
+    left: 128px;
+    overflow: hidden;
+}
+.analysisReport .analysisReport-content .subject-test .stu-video-part .subject-rollimg{
+    width: 720px;
+    height: 450px;
+    -webkit-animation:roll 10s infinite linear ;
+}
+@-webkit-keyframes roll{
+    0%{
+       top:40px;
+    }
+    100%{
+         -webkit-transform:translate3d(0,-300%,0);
+    }
+}*/
+
+/*--------------------teacher-assessment---------------------*/
+.teacher-assessment{
+    width: 100%;
+    height: 640px;
+    min-width: 1200px;
+    background-image: url(../img/part5new_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;
+}
+.teacher-assessment .teacher-assessment-content{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.teacher-assessment .teacher-assessment-content .title{
+    text-align: center;
+    position: relative;
+}
+.teacher-assessment .teacher-assessment-content .title .box{
+    width: 50px;
+    height: 100px;
+    border:2px #18D3B4 solid;
+    margin: 0 auto;
+}
+.teacher-assessment .teacher-assessment-content .title p{
+    line-height: 30px;
+}
+.teacher-assessment .teacher-assessment-content .title .title-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -12px;
+    margin-left: -100px;
+    background: #eee;
+    font-size: 24px;
+}
+.teacher-assessment .teacher-assessment-content .title .title-content b{
+     color:#18D3B4;
+    font-weight: normal;
+}
+.teacher-assessment .teacher-assessment-content .title .title-content span{
+    color:#18D3B4;
+}
+.teacher-assessment .teacher-assessment-content h3{
+    font-size: 48px;
+    line-height: 72px;
+    color: #333;
+   padding-top: 64px;
+    text-align: center;
+}
+.teacher-assessment .teacher-assessment-content .assessment-cont{
+    width: 600px;
+    margin: 32px auto 0;
+}
+.teacher-assessment .teacher-assessment-content .assessment-cont .left{
+    width: 240px;
+    float: left;
+}
+.teacher-assessment .teacher-assessment-content .assessment-cont .left h4{
+    font-size: 20px;
+    line-height: 32px;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: right;
+}
+.teacher-assessment .teacher-assessment-content .assessment-cont .left p{
+    text-align: right;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+.teacher-assessment .teacher-assessment-content .assessment-cont .right{
+    width: 240px;
+    float: right;
+}
+.teacher-assessment .teacher-assessment-content .assessment-cont .right h4{
+   text-align:left;
+}
+.teacher-assessment .teacher-assessment-content .assessment-cont .right p{
+   text-align:left;
+}
+

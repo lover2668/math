@@ -1,0 +1,33 @@
+#studentsList li
+{
+    text-align: center;
+
+}
+
+#studentsList li div
+{
+    border: 1px solid #DAEEF1;
+    margin-right: 5px;
+}
+#studentsList li p
+{
+    font-size:18px;
+    color: #334D5A;
+}
+
+#studentsList li span
+{
+    font-size:14px;
+    color: #7C99B2;
+}
+
+#studentsList li:hover div
+{
+    background-color: rgba(91, 221, 191, 1);
+    cursor: pointer;
+}
+
+#studentsList li:hover *
+{
+    color: #fff;
+}

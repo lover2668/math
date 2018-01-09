@@ -1,0 +1,17 @@
+.xx-subject{
+    margin-bottom: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+    position: relative;
+    transition: all 1s ease 0s;
+    overflow: hidden;
+    border:1px solid #ccc;
+}
+.xx-subject a{display: block;}
+.xx-subject img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 1s ease 0s;
+}

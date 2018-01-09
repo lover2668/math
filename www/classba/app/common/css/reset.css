@@ -1,0 +1,58 @@
+@charset "utf-8";
+html, body, div,p, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, summary, time, mark, audio, video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none;
+    list-style:none;
+    -webkit-font-smoothing:antialiased;}
+
+article, aside, details, dialog, figcaption, figure, footer, header, hgroup, menu, legend, nav, section { display: block; }
+nav ul{ list-style:none;}
+a,a:active,a:hover {outline: none;}
+blockquote, p{ quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after{ content:''; content:none;}
+input, select{ vertical-align:middle;}
+img,button{
+    outline: none;
+}
+/* 记住定义重点风格! */
+:focus {
+    outline: 0;
+}
+
+/* 记住因何故插入 */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+/* 表还需要“单元格间距= " 0 "”的标记 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ul{
+    list-style: none;
+}
+html{
+    background: #fff;
+    font-family: "myFontFace", "Microsoft Yahei", "宋体",sans-serif;
+}
+input, button{
+    font-family: "myFontFace", "Microsoft Yahei", "宋体",sans-serif;
+} 
+html,body,.container{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}

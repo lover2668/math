@@ -1,0 +1,232 @@
+#content{
+    width:100%;
+    height:840px;
+    background:url(../img/content-bg.png) no-repeat center center;
+}
+.title{
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+}
+.title .box{
+    width: 50px;
+    height: 100px;
+    border:2px #18D3B4 solid;
+    margin: 0 auto;
+}
+.title .title-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -12px;
+    /*margin-left: -150px;*/
+    /*background: #eee;*/
+    font-size: 24px;
+}
+.title .title-content b{
+    color:#18D3B4;
+    font-weight: normal;
+}
+.title .title-content span{
+    color:#18D3B4;
+}
+#content .title .title-content{
+    background-color: #eee;
+    margin-left: -210px;
+}
+#prospect{
+    width:100%;
+    height:810px;
+    background-color: #fff;
+}
+#prospect .box-bg{
+    width: 85%;
+    height: 218px;
+    background: #EFEEEC;
+    position: relative;
+    top:-140px;
+}
+#prospect .title .title-content{
+    background-color: #fff;
+    margin-left: -210px;
+}
+#prospect .xx-center{
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+}
+#prospect .xx-center>p>span{
+    font-size: 1.5em;
+    color: #18d3b4;
+}
+#prospect .container .vedio-font{
+    margin-top: 80px;
+     position: relative;
+    z-index: 10;
+} 
+#prospect .container .vedio-font .content-left{
+    width: 200px;
+    height: 240px;
+    margin-left: 150px;
+    border:4px #000 solid;
+}
+#prospect .container .vedio-font .content-left ul{
+    padding: 0;
+    margin: 20px 10px;
+}
+#prospect .container .vedio-font .content-left ul li:nth-of-type(1){
+    width: 15px;
+    height: 15px;
+    border: 3px #000 solid;
+    border-radius: 50%;
+}
+#prospect .container .vedio-font .content-left ul li{
+    list-style: none;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+#prospect .container .vedio-font .content-left ul li:nth-of-type(6){
+    
+}
+#prospect .container .vedio-font .content-right{
+    float: right;
+}
+#prospect .container .vedio-font .content-right .maxwidth-v4 {
+    width: 55%;
+    top: -250px;
+    background: url("../img/vedio.png") no-repeat;
+    height: 600px;
+    background-size: contain;
+    background-position: 50% 200px;
+    right: 10%;
+    position: absolute;
+}
+
+#prospect .container .vedio-font .content-right .maxwidth-v4 .yx-video-area{
+    position: absolute;
+    top: 220px;
+    left: 16%;
+}
+
+#prospect .container .vedio-font .content-right .maxwidth-v4 .video-left{
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    font-size: 20px;
+    z-index: 999999;
+}
+#prospect .container .vedio-font .content-right .maxwidth-v4 .video-js .vjs-big-play-button{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color:#00D8B2;
+}
+
+#modular{
+    width:100%;
+    height:735px;
+    background-color: #fff;
+}
+#modular .title .title-content{
+    background-color: #fff;
+    margin-left: -220px;
+}
+#modular .modular-list{
+    height: 200px;
+    margin-top: 20px;
+}
+#modular .modular-list li{
+    list-style: none;
+}
+#modular .modular-list li dl{
+     background: #EFEEEC;
+    height: 200px;
+}
+#modular .modular-list li dl dt{
+    width: 125px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+#modular .modular-list li dl dd{
+    text-align: center;
+}
+#modular .modular-list li dl dt img{
+    width: 125px;
+    height: 120px;
+}
+
+#allover{
+    width:100%;
+    /*height:735px;*/
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+#allover .title .title-content{
+    background-color: #fff;
+    margin-left: -230px;
+}
+#join-hotline{
+   position: relative;
+    margin-bottom: 35px;
+}
+#particles{
+    height:385px;
+    background-color: #eee;
+}
+#join-hotline .xx-eduic{
+    width:480px;
+    height:305px;
+    background-color: transparent;
+    border:4px solid black;
+    position: absolute;
+    left:50%;
+    margin-left: -240px;
+    top: 50%;
+    margin-top: -153px;
+}
+#join-hotline .xx-eduic>.xx-cen{
+    width:80%;
+    margin:auto;
+    position: relative;
+}
+#join-hotline .xx-eduic span{
+    position: absolute;
+    font-size: 5em;
+    display: inline-block;
+    font-size: 5em;
+    top: -25px;
+    left:43px;
+}
+#alltest{
+    margin-top: 35px;
+}
+#join-hotline .xx-eduic .xx-test{
+    margin-top: 55px;
+    position: relative;
+}
+#join-hotline .xx-eduic .xx-test>p{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#join-hotline .xx-eduic .xx-test>h3{
+    font-weight: 600;
+    color: #18d3b4;
+}
+#join-hotline .xx-eduic .xx-test>h3:last-child{
+    line-height: 0;
+}
+#join-hotline .xx-eduic .xx-test>a.xx-close{
+    font-size: 2em;
+    color: #18d3b4;
+    position: absolute;
+    right:0;
+    bottom:45px;
+}
+#join-hotline .xx-eduic .xx-test>p>i{
+    color: #18d3b4;
+}

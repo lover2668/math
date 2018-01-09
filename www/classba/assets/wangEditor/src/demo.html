@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../dist/css/wangEditor.min.css">
+    <link rel="stylesheet" href="js/extend/math_editor/style/formula-editor.css">
+</head>
+<body>
+<textarea id="MathInput" cols="60" rows="10" style="margin-top:5px">
+</textarea>
+预览:
+<div id="MathPreview" style="border:1px solid; padding: 3px; width:50%; margin-top:5px"></div>
+<div id="MathBuffer" style="border:1px solid; padding: 3px; width:50%; margin-top:5px;
+visibility:hidden; position:absolute; top:0; left: 0"></div>
+
+
+
+<script type="text/javascript" src="js/extend/math_editor/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../dist/js/lib/jquery-1.10.2.min.js"></script>
+<!--<script type="text/javascript" src="../dist/js/wangEditor.min.js"></script>-->
+<script type="text/javascript" src="./js/wangEditor.js"></script>
+<!--<script src="./js/extend/math_editor/script/formula-editor.js"></script>-->
+<!--注意：editor.js一定要在wangEditor.min.js引用之后再引用-->
+<script type="text/javascript" src="./js/extend/preview.js"></script>
+<!--<script type="text/javascript" src="./js/extend/plugin.js"></script>-->
+<script type="text/javascript" src="./js/extend/indent.js"></script>
+<script type="text/javascript" src="./js/extend/symbol.js"></script>
+<script type="text/javascript" src="./js/extend/editor.js"></script>
+
+<script type="text/javascript">
+    var editor = new wangEditor('MathInput');
+    editor.config.menus = [
+        'source',
+        '|',
+        'bold',
+        'underline',
+        'italic',
+        'strikethrough',
+        'eraser',
+        'forecolor',
+        'bgcolor',
+        '|',
+        'quote',
+        'fontfamily',
+        'fontsize',
+        'head',
+        'unorderlist',
+        'orderlist',
+        'alignleft',
+        'aligncenter',
+        'alignright',
+        '|',
+        'link',
+        'unlink',
+        'table',
+        'emotion',
+        '|',
+        'img',
+        'video',
+        'location',
+        'insertcode',
+        '|',
+        'undo',
+        'redo',
+        'fullscreen',
+        // 通过自定义菜单，让新配置的菜单显示在页面中。
+        // 上文已经确定，新配置的『缩进』菜单id为 'indent'
+        'indent',
+        'symbol','editor'
+    ];
+
+    editor.create();
+    Preview.Init();
+</script>
+</body>
+</html>

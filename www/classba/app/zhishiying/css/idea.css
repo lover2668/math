@@ -1,0 +1,378 @@
+.xx-intelligence{
+    width:100%;
+    height:500px;
+    background:url("../img/subject.jpg")  center center  ;
+    background-size: cover;
+}
+#arrow{
+    width:100%;
+    height: 956px;
+    background-color: #fff;
+}
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.intro{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    min-width: 1204px;
+}
+.yx-tradition{
+    width:100%;
+    height:700px;
+    background-color: #eeeeee;
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+}
+.title .box{
+    width: 50px;
+    height: 100px;
+    border:2px #18D3B4 solid;
+    margin: 0 auto;
+}
+.title .title-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -12px;
+    font-weight: 800;
+    /*margin-left: -150px;*/
+    /*background: #eee;*/
+    font-size: 24px;
+}
+.title .title-content b{
+    color:#18D3B4;
+    font-weight: normal;
+}
+.title .title-content span{
+    color:#18D3B4;
+}
+.yx-tradition .title .title-content{
+    background-color: #eee;
+    margin-left: -150px;
+}
+.intro .title .title-content{
+    background-color: #fff;
+    margin-left: -160px;
+}
+.yx-effect{
+    width:100%;
+    height: 635px;
+    background-color: #fff;
+}
+.yx-effect .title .title-content{
+    margin-left: -130px;
+    background-color: #fff;
+    font-weight: 600;
+}
+.container h3{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+}
+.xx-grades{
+    /*border:1px solid black;*/
+    height: 306px;
+    margin-top: 1px;
+}
+.xx-proportion{
+    margin-top: 25px;
+}
+table tr{
+    height:49px;
+}
+table tr td,table tr th{text-align: center;}
+table tr td{
+    line-height: 49px;
+}
+table>thead>tr>th{
+    background-color: #18d3b4;
+}
+table>tbody>tr>td,table>thead>tr>th{
+    border:1px solid #18d3b4 !important;
+}
+table{
+    border-spacing: 2px;
+    border-collapse: inherit;
+}
+.table-bordered{
+    border:none !important;
+}
+.intro .xx-inte{
+    text-align: center;
+    margin-top: 105px;
+    position: relative;
+}
+.intro .xx-inte>.yx-round>.xx-study{
+    width:105px;
+    height:105px;
+    border-radius: 100%;
+    background-color: #333333;
+    border:2px solid #fff;
+    position: absolute;
+    line-height: 105px;
+}
+.intro .xx-inte>.yx-round>.xx-study>span,.intro .xx-inte>.yx-round>.xx-study>a{
+    color: #fff;
+}
+.intro .xx-inte>.yx-round>.xx-study>span{
+    font-size: 1.3em;
+}
+.intro .xx-inte>.yx-round>.xx-study>a{
+    font-size: 1.8em;
+}
+.intro .xx-inte>.yx-round>.d1{
+    left:50%;
+    margin-left: -58px;
+    top:-60px;
+}
+.intro .xx-inte>.yx-round>.d2{
+    right: 50%;
+    margin-right: -310px;
+    top: 160px;
+}
+.intro .xx-inte>.yx-round>.d3{
+    left:50%;
+    margin-left: -58px;
+    bottom:-60px;
+}
+.intro .xx-inte>.yx-round>.d4{
+    left:50%;
+    margin-left: -280px;
+    bottom:74px;
+}
+.intro .xx-inte>.yx-round>.d5{
+    left: 50%;
+    margin-left: -280px;
+    top: 74px;
+}
+.intro .xx-inte>.yx-round>.xx-test{
+    position: absolute;
+}
+.intro .xx-inte>.yx-round>.xx-test>h4{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.intro .xx-inte>.yx-round>.xx-test>span{
+    font-size: 12px;
+}
+.intro .xx-inte>.yx-round>.test-1{
+    top: -50px;
+    left: 50%;
+    margin-left:60px;
+    text-align: left;
+}
+.intro .xx-inte>.yx-round>.test-2{
+    top: 180px;
+    right: 0px;
+    text-align: left;
+}
+.intro .xx-inte>.yx-round>.test-3{
+    bottom: -53px;
+    left: 50%;
+    margin-left: 55px;
+    text-align: left;
+}
+.intro .xx-inte>.yx-round>.test-4{
+    left: 0px;
+    top: 50%;
+    margin-top: 100px;
+    text-align: right;
+}
+.intro .xx-inte>.yx-round>.test-5{
+    left: 0px;
+    margin-left: 30px;
+    top: 100px;
+    text-align: right;
+}
+.yx-tradition .consult-content {
+    width: 100%;
+    height: 419px;
+    background-image: url(../img/part7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    background-position: center;
+}
+.yx-tradition .consult-content .left {
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -100px;
+    text-align: right;
+}
+.yx-tradition .consult-content .left p{
+    line-height: 35px;
+    position: relative;
+}
+.yx-tradition .consult-content .left p:nth-child(3){
+    left:-10px;
+}
+.yx-tradition .consult-content .left p:nth-child(4){
+    left:-30px;
+    top:10px;
+}
+.yx-tradition .consult-content .left p:nth-child(5){
+    top:10px;
+    left:-50px;
+}
+.yx-tradition .consult-content .left .left-mask {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-color: rgba(0,0,0,0.5);*/
+    /*position: relative;*/
+}
+.yx-tradition .consult-content .right {
+
+    color: #fff;
+    position: absolute;
+    right: 50%;
+    margin-right: -460px;
+    top: 50%;
+    margin-top: -100px;
+    text-align: left;
+}
+.yx-tradition .consult-content .right p{
+    line-height: 32px;
+    position: relative;
+}
+.yx-tradition .consult-content .right p:nth-child(1){
+    /*left:10px;*/
+}
+.yx-tradition .consult-content .right p:nth-child(2){
+    left:-30px;
+    /*top:10px;*/
+}
+.yx-tradition .consult-content .right p:nth-child(3){
+    top:8px;
+    left:-50px;
+}
+.yx-tradition .consult-content .right p:nth-child(4){
+    left: -70px;
+    top: 15px;
+}
+.yx-tradition .consult-content .right p:nth-child(5){
+    left: -90px;
+    top: 20px;
+}
+.yx-tradition .left .left-mask h1{
+    text-align: center;
+    line-height: 542px;
+    font-size: 6em;
+    margin-left: -20px;
+    transform: rotate(7deg);
+    -ms-transform:rotate(7deg); 	/* IE 9 */
+    -moz-transform:rotate(7deg); 	/* Firefox */
+    -webkit-transform:rotate(7deg); /* Safari 和 Chrome */
+    -o-transform:rotate(7deg); 	/* Opera */
+}
+.yx-tradition .left  .yixue-er{
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    height: 625px;
+    /* width: 2px; */
+    top: -40px;
+    display: block;
+    transform: rotate(30deg);
+    border: 1px solid #333535;
+}
+.consult-content p{
+    font-weight: bold;
+}
+.yx-tradition .left  .yixue-er>span{
+    background:#333535 ;
+}
+.yx-tradition .right  .right-content>span{
+    background-color: #fff;
+}
+.yx-tradition .left  .yixue-er>span,.yx-tradition .right  .right-content>span{
+    display: block;
+    width:10px;
+    height:10px;
+    position: absolute;
+    /*left:0;*/
+    /*top:0;*/
+    border-radius: 100%;
+}
+.yx-tradition .left  .yixue-er>span.round-1,.yx-tradition .right  .right-content>span.round-1{
+    left:0;
+    margin-left: -5px;
+    top:50%;
+    margin-top: -40px;
+}
+.yx-tradition .left  .yixue-er>span.round-2,.yx-tradition .right  .right-content>span.round-2{
+    left:-5px;
+    top:50%;
+}
+.yx-tradition .left  .yixue-er>span.round-3,.yx-tradition .right  .right-content>span.round-3{
+    left:-5px;
+    top:50%;
+    margin-top: 35px;
+}
+.yx-tradition .left  .yixue-er>span.round-4,.yx-tradition .right  .right-content>span.round-4{
+    left:-5px;
+    top:50%;
+    margin-top: 70px;
+}
+.yx-tradition .right  .right-content{
+    position: absolute;
+    left: 0;
+    margin-left: 260px;
+    height: 625px;
+    /* width: 2px; */
+    top: -40px;
+    display: block;
+    transform: rotate(30deg);
+    border: 1px solid #fff;
+}
+.yx-tradition .right .right-mask h1{
+    line-height: 542px;
+    font-size: 6em;
+    margin-left: 150px;
+    color: #fff;
+    display: inline-block;
+    /*margin-left: -20px;*/
+    transform: rotate(15deg);
+    -ms-transform:rotate(15deg); 	/* IE 9 */
+    -moz-transform:rotate(15deg); 	/* Firefox */
+    -webkit-transform:rotate(15deg); /* Safari 和 Chrome */
+    -o-transform:rotate(15deg); 	/* Opera */
+}
+.yx-per {
+    background: url(../img/22_03.png);
+    position: absolute;
+    width: 288px;
+    height: 288px;
+    left: 38%;
+    top: 20%;
+}
+.yx-per span{
+    display: inline-block;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 129px;
+    width: 50%;
+    text-align: center;
+}
+.yx-per span.yx-per-right{
+    display: inline-block;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 129px;
+    width: 50%;
+    text-align: right;
+}

@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding:0;
+}
+.wrap{
+    background: #f2f2f2;
+}
+.section >h3{
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.section{
+    background:#fff;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+/*--------------------section1 circles-----------------*/
+.s1 >span{
+    display:inline-block;
+    border-radius:50%;
+    border:solid 2px #4ea887;
+}
+#s1_number{
+    position:relative;
+    padding: 20px;
+    margin: 0 30px;
+    display:inline-block;
+}
+#number_circle1{
+    height: 80px;
+    width: 80px;
+}
+#number_circle1 :before{
+    text-align: center;
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+    color:#009688;
+    font-size: 40px;
+    content:'10';
+    position:relative;
+    top: 15px;
+    /*left: 26px;*/
+}
+#number_circle1 :after{
+    content: '本周加盟校数量';
+    position:absolute;
+    bottom: -5px;
+    left: 10px;
+    text-align:center;
+    font-size: 14px;
+}
+
+#number_circle2{
+    position:relative;
+    top: 15px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+}
+#number_circle2 :after{
+    content: '上周';
+    position:absolute;
+    bottom:-30px;
+    left: 5px;
+    text-align:center;
+    font-size: 14px;
+}
+#number_circle2 :before{
+    text-align: center;
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    color:#009688;
+    font-size: 20px;
+    content:'3';
+    position:relative;
+    top: 5px;
+}
+.number_wrap{
+    margin-bottom: 70px;
+}
+/*-------------------------section1 list-----------------------*/
+.square_list{
+    display:inline-block;
+    text-align:center;
+    border:solid 1px #d6d5d5;
+    margin-left: 30px;
+    padding: 15px 30px;
+    font-size: 14px;
+    position:relative;
+    top: 30px;
+}
+.square_list ul li{
+    list-style:none;
+    margin: 5px 0;
+}
+/*------------------------section1 line-charts------------------*/
+#s1_line{
+    width: 300px;
+    height: 250px;
+}
+#s1_chart1{
+    display:inline-block;
+    position: absolute;
+    left: 480px;
+    top: 100px;
+}
+/*------------------------section2 spot chart---------------------*/
+.s2-1{
+    display: inline-block;
+    margin: 0 30px;
+}
+#s2_line_spot{
+    width: 350px;
+    height: 350px;
+}
+/*------------------------section2 column ---------------------*/
+.s2-2{
+    display:inline-block;
+    margin: 0 30px;
+}
+#s2_column{
+    width: 350px;
+    height: 350px;
+}
+/*------------------------section2 pie-----------------------*/
+.s2-3{
+    display:inline-block;
+    margin: 0 30px;
+}
+#s2_pie{
+    width: 350px;
+    height:350px;
+}
+/*------------------------section3 table-----------------------*/
+.section table{
+    border-collapse:collapse;
+    border-spacing: 0;
+}
+.section thead{
+    background: #009688;
+    color:#ffffff;
+}
+.section table tr td{
+    font-size: 14px;
+    white-space: nowrap;
+    text-align:center;
+    border: solid 1px #999;
+    padding: 3px 10px;
+}
+.section tr{
+    overflow:scroll;
+}
+#s3_table{
+    overflow: scroll;
+}
+#allmap{
+    width: 100%;
+    height:500px;
+}

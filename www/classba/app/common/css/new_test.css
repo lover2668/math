@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*
+* @Author: Larry
+* @Date:   2016-12-15 17:20:54
+* @Last Modified by:   qinsh
+* @Last Modified time: 2016-12-20 18:06:40
+* +----------------------------------------------------------------------
+* | LarryBlogCMS [ LarryCMS网站内容管理系统 ]
+* | Copyright (c) 2016-2017 http://www.larrycms.com All rights reserved.
+* | Licensed ( http://www.larrycms.com/licenses/ )
+* | Author: qinshouwei <313492783@qq.com>
+* +----------------------------------------------------------------------
+*/
+/* 公共样式 */
+body{
+	padding: 0;
+}
+.layui-form-pane p{
+	margin-top: 15px;
+}
+.layui-form-pane p label{
+	margin-right: 20px;
+}
+.layui-editor{
+	margin-top: 15px;
+}
+.layui-editor span{
+	width: 4%;
+	float: left;
+}
+.layui-editor .wangEditor-container{
+	width: 94%;
+	float: right;
+}
+.tg-btn{
+	margin-left: 65px;
+}
+/*答案类型*/
+.layui-form-items span{
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 20px 0 0;
+}
+.layui-form-items ul{
+	display: inline-block;
+}
+.layui-form-items ul li{
+	display: inline-block;
+	font-size: 14px;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	background: #eee;
+}
+.layui-form-items ul li:hover{
+	background: #1AA094;
+	color: #fff;
+}
+.layui-form-items ul li.actives{
+	background: #1AA094;
+	color: #fff;
+}
+.layui-tab-content .layui-selects .layui-a span{
+	width: 4%;
+	float: left;
+	margin-top: 15px;
+}
+.layui-tab-content .layui-selects .layui-a .wangEditor-container{
+	width: 95%;
+	float: right;
+	margin-top: 15px;
+}
+.layui-tab-content .layui-fill{
+	display: none;
+}
+.layui-tab-content .layui-fill>ul{
+	margin: 10px 0 0 45px;
+}
+.layui-tab-content .layui-fill ul li{
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.layui-tab-content .layui-fill .gap-fill .layui-answer{
+	width: 90%;
+}
+.layui-tab-content .layui-fill .gap-fill .layui-answer span{
+	display: inline-block;
+	margin:10px 14px 0 0;
+}
+.layui-tab-content .layui-fill .gap-fill .layui-answer ul{
+	display: inline-block;
+}
+.layui-tab-content .layui-fill .gap-fill .layui-answer .add-fill{
+
+}
+.analysis .layui-form-analysis span{
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 16px;
+}
+.analysis .layui-form-analysis ul{
+	display: inline-block;
+}
+.analysis .layui-form-analysis ul li{
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.analysis-list .fill-analysis ul{
+	margin-left: 110px;
+	margin-top: 10px;
+}
+.analysis-list .fill-analysis ul li{
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.analysis-step span{
+	width: 10%;
+	float: left;
+}
+.analysis-step>div{
+	width: 90%;
+	float: right;
+}

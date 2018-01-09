@@ -1,0 +1,813 @@
+@font-face {
+    font-family: 'yxiconfont';
+    src: url('../../common/yx_font/iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../common/yx_font/iconfont.woff') format('woff'),
+    url('../../common/yx_font/iconfont.ttf') format('truetype'),
+    url('../../common/yx_font/iconfont.svg#yxiconfont') format('svg');
+}
+.yxiconfont{
+    font-family:"yxiconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+*{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+
+/***顶部导航条的样式****/
+
+.fc-content{
+    width:1200px;
+    margin:auto;
+}
+.navbar-default{
+    background:#ffffff;
+    box-shadow:0 2px 16px 0 rgba(0,0,0,0.08);
+    height:64px;
+    border:none;
+}
+
+.navbar-header>a.navbar-brand{
+    display: block;
+    width:120px;
+    position: relative;
+    top:7px;
+}
+.navbar-header>a.navbar-brand>i.yx-logo{
+    font-size: 48px !important;
+    /*float: left;*/
+    position: absolute;
+    left:0;
+    color: #12b5bf;
+}
+.navbar-header>a.navbar-brand>div.yx-logo-text{
+    font-family:PingFangSC-Semibold;
+    color:#12b5bf;
+    letter-spacing:0;
+    /*line-height:28px;*/
+    text-align:left;
+    position: absolute;
+    right:0;
+    top:5px;
+}
+.navbar-header>a.navbar-brand>div.yx-logo-text>span:first-child{
+    font-size:16px;
+    font-weight: bold;
+}
+.navbar-header>a.navbar-brand>div.yx-logo-text>span:last-child{
+    display: block;
+    font-size:14px;
+}
+
+.fc-content ul>li>a{
+    font-size: 14px !important;
+}
+.fc-content ul>li>a>i{
+    position: relative;
+    top:2px;
+}
+.hover-li{
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    z-index: 999;
+    /*display: none;*/
+    padding: 8px 16px;
+    background: #fff;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.16);
+    cursor: pointer;
+    /*display: none;*/
+}
+.fc-myreport+.hover-li{
+    display: none;
+}
+.nav-bottom>.fc-practice>.fc-hover-bottom{
+    top:-38px;
+    right:0;
+    font-family:PingFangSC-Regular;
+    font-size:12px;
+    color:#666666;
+    letter-spacing:0;
+}
+.nav-bottom>.fc-practice>.fc-hover-bottom>a{
+    bottom:-19px;
+    right:20px;
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+}
+.nav-bottom>.fc-practice>.fc-hover-bottom>i{
+    color: #FF4081;
+    position: relative;
+    top:3px;
+}
+.fc-content>div.navbar-collapse>ul>.hover-li a{
+    position: absolute;
+    right: 30px;
+    top: -22px;
+    z-index: 0;
+    font-size: 30px;
+    color: #fff;
+}
+.fc-content>div.navbar-header>a.fc-nav{
+    display: inline-block;
+
+    height: 30px;
+    /*padding: 15px;*/
+
+    line-height: 30px;
+    margin-top: 17px;
+    /**/
+    font-family:PingFang-SC-Semibold;
+    font-size:14px;
+    /*font-weight: bold;*/
+}
+
+.fc-content>div.navbar-header>a.fc-nav-first{
+    border-left:1px solid #ccc;
+    margin-left: 18px;
+    padding: 0 0 0 15px;
+}
+.fc-content>div.navbar-header>a.nav-default{
+    color:#999;
+    letter-spacing:0;
+}
+.fc-content>div.navbar-header>a.nav-active{
+    color:#333333;
+    letter-spacing:0;
+
+}
+
+.fc-content .navbar-collapse li>a{
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    color:#999;
+    line-height:28px;
+}
+.fc-content .navbar-collapse li.fc-myreport>a{
+    color:#12b5bf;
+}
+.navbar-collapse{
+    padding: 0 !important;
+    position: relative;
+}
+.navbar{margin:0 !important;}
+
+
+/*****底部导航条样式******/
+
+.nav-bottom{
+    background:#ffffff;
+    box-shadow:0 -2px 8px 0 rgba(51,51,51,0.10);
+    width:100%;
+    height:95px;
+    margin-top: 64px;
+    /*position: absolute;*/
+    /*left:0;*/
+    /*bottom:0;*/
+}
+.nav-bottom>.fc-practice{
+    margin:auto;
+    position: relative;
+}
+.nav-bottom .fc-time-num{
+    float: left;
+    margin:23px 0 24px 0;
+}
+.nav-bottom .fc-time-num>p>span:first-child{
+    font-size: 12px;
+    color: #999;
+}
+.nav-bottom .fc-prompt-tips{
+    float: right;
+    margin:23px 0 24px 0;
+}
+.nav-bottom .fc-prompt-tips>li{
+    display: inline-block;
+}
+.nav-bottom .fc-prompt-tips>li.fc-show-tips{
+
+    border-radius:24px;
+    width:160px;
+    text-align: center;
+
+    margin-right: 23px;
+}
+.nav-bottom .fc-prompt-tips>li.active{
+    background:#fff;
+    background-image:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(255,255,255,0.00) 100%);
+    box-shadow:0 8px 8px 0 rgba(204,204,204,0.20);
+    border:1px solid #12b5bf;
+    height:46px;
+    line-height: 46px;
+    cursor: pointer;
+}
+.nav-bottom .fc-prompt-tips>li.current{
+    background:#cccccc;
+    background-image:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(255,255,255,0.00) 100%);
+    box-shadow:0 8px 8px 0 rgba(204,204,204,0.20);
+    border-radius:24px;
+    width:160px;
+    height:48px;
+    line-height: 48px;
+    cursor: not-allowed;
+}
+.nav-bottom .fc-prompt-tips>li.current>a{
+    cursor: not-allowed;
+    color:#fff !important;
+}
+.nav-bottom .fc-prompt-tips>li>a{
+    font-family:PingFangSC-Semibold;
+    font-size:16px;
+    letter-spacing:0;
+}
+.nav-bottom .fc-prompt-tips>li>a:hover,.nav-bottom .fc-prompt-tips>li>a:focus{
+    text-decoration: none;
+}
+.nav-bottom .fc-prompt-tips>li.fc-show-tips>a{
+    color:#12b5bf;
+}
+.nav-bottom .fc-prompt-tips>li.fc-next{
+    background-image:linear-gradient(-180deg, #27e3c5 5%, #12b5bf 100%);
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+    border-radius:24px;
+    width:240px;
+    height:48px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+.nav-bottom .fc-prompt-tips>li.fc-next>a{
+    color: #fff;
+}
+
+.nav-bottom>div.fc-practice>button.fc-find-video{
+    margin:23px 0 24px 0;
+}
+
+/**进入系统开始学习阶段页面的样式**/
+
+.content{
+    width:100%;
+    position: relative;
+    height:auto;
+}
+#fc-content{
+}
+#fc-content>p{
+    text-align: center;
+    font-family:PingFangSC-Light;
+    font-size:40px;
+    color:#12b5bf;
+    letter-spacing:0;
+    /*line-height:40px;*/
+margin-top: 56px;
+}
+#fc-content .teacher-tips>p{
+    font-family:PingFangSC-Light;
+    font-size:16px;
+    color:#333333;
+    letter-spacing:0;
+    line-height:28px;
+    padding: 16px 32px;
+}
+#fc-content .teacher-tips{
+    background:#ffffff;
+    box-shadow:0 0px 4px 0 rgba(0,0,0,0.10);
+    border-radius:4px;
+    width:480px;
+    height:88px;
+    margin:40px auto 0;
+    /*display: none;*/
+}
+#fc-content .point-tips{
+    background:#ffffff;
+    box-shadow:0 0px 4px 0 rgba(0,0,0,0.10);
+    border-radius:4px;
+    width:480px;
+    padding: 16px 0;
+    margin:16px auto;
+    /*display: none;*/
+}
+#fc-content .point-tips p{
+    font-family:PingFangSC-Light;
+    font-size:16px;
+    color:#333333;
+    letter-spacing:0;
+    line-height:24px;
+    text-align:left;
+    margin:0;
+}
+#fc-content .point-tips p>span{
+    position: relative;
+    top:-3px;
+}
+#fc-content .point-tips p>b{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background: url(../img/icon/ic_knowledge_border_24px.svg) no-repeat;
+}
+
+#fc-content .point-tips p>i{
+    font-size: 24px;
+}
+#fc-content .point-tips>.point-tips-test{
+    margin-left: 40px;
+}
+#fc-content .fc-tips-btn{
+    width:200px;
+    margin:45px auto;
+    text-align: center;
+    /*display: none;*/
+}
+#fc-content .fc-tips-btn>a{
+    background-image:linear-gradient(-180deg, #27e3c5 5%, #12b5bf 100%);
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+    border-radius:24px;
+    width:240px;
+    height:48px;
+    font-family:PingFang-SC-Semibold;
+    font-size:16px;
+    color:#ffffff;
+    letter-spacing:0;
+    line-height:48px;
+    text-align:center;
+    border: none;
+    padding: 0 !important;
+}
+#fc-content .fc-tips-btn>a:focus{
+    opacity: 0.2;
+    border:none;
+}
+
+/***导入视频阶段的样式***/
+
+.content>.point-video{
+    background:#ffffff;
+    border:1px solid #eaeaea;
+    box-shadow:0 0 4px 0 rgba(0,0,0,0.04);
+    border-radius:2px;
+    width:1198px;
+    height:582px;
+    margin:24px auto;
+    position: relative;
+}
+.content>.point-video>h1{
+    display: inline-block;
+    font-family:PingFang-SC-Semibold;
+    font-size:24px;
+    color:#333333;
+    letter-spacing:0;
+    padding: 0px 0 0 40px;
+}
+.content>.point-video>b{
+    width:24px;
+    height:24px;
+    display: inline-block;
+    background: url(../img/icon/ic_feedback_24px.svg) no-repeat;
+    position: absolute;
+    bottom:30px;
+    left:-60px;
+}
+.content .fc-video{
+    width:868px;
+    margin:10px auto;
+}
+.fc-video-btn{
+    width:1200px;
+    margin:0px auto;
+    min-height: 48px;
+    position: relative;
+}
+.fc-video-btn>a.fc-look-video{
+
+    border-radius:24px;
+    width:240px;
+    height:48px;
+    padding: 0;
+    font-family:PingFangSC-Semibold;
+    font-size:16px;
+    color:#ffffff;
+    letter-spacing:0;
+    line-height:48px;
+    border:none;
+    /*text-align:justify;*/
+    position: absolute;
+    bottom: 0px;
+    right:0;
+}
+.fc-video-btn #look-video-1{
+    background:#cccccc;
+    background-image:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(255,255,255,0.00) 100%);
+    box-shadow:0 8px 8px 0 rgba(204,204,204,0.20);
+    cursor: default !important;
+    /*display: none;*/
+}
+.fc-video-btn #look-video-1:focus,.fc-video-btn #look-video-2:focus{
+    color: #fff;
+}
+.fc-video-btn #look-video-2{
+    background-image:linear-gradient(-180deg, #27e3c5 5%, #12b5bf 100%);
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+}
+
+/***做题页面的样式***/
+.fc-practice{
+    width:1200px;
+    margin:48px auto;
+    padding-bottom: 80px;
+    position:relative;
+}
+.content>b{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background: url(../img/icon/ic_feedback_24px.svg) no-repeat;
+    position: absolute;
+    left:60px;
+    bottom:30px;
+}
+.fc-practice>h1,.fc-practice-question{
+    /*padding-left: 16px;*/
+}
+.fc-practice-question li>p{
+    display: inline-block;
+}
+.fc-practice>h1{
+    font-family:PingFangSC-Semibold;
+    font-size:24px;
+    color:#333333;
+    letter-spacing:0;
+    line-height:32px;
+    margin:0;
+}
+.fc-practice-question>h1{
+    font-family:PingFangSC-Semibold;
+    font-size:24px;
+    color:#333333;
+    letter-spacing:0;
+    line-height:32px;
+    text-align:justify;
+    margin:0;
+}
+.fc-practice-question{
+    font-family:PingFang-SC-Regular;
+    font-size:16px;
+    color:#333333;
+    letter-spacing:0;
+    line-height:28px;
+    text-align:left;
+    margin-top: 16px;
+    position: relative;
+}
+.fc-practice-question>p>span.input-editor{
+    padding: 5px 30px;
+    border-bottom: 1px solid #333;
+    color: #ccc;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.fc-practice-radio{
+    margin-top: 50px;
+}
+.fc-practice-radio input{
+    display: none;
+    padding: 0;
+}
+.fc-practice-radio input:checked+span{
+    color: #12b5bf;
+}
+.fc-practice-radio label{
+    padding: 0;
+    font-weight: bold;
+    font-family:PingFangSC-Light;
+    font-size:16px;
+    /*color:#12b5bf;*/
+    letter-spacing:0;
+    line-height:32px;
+    display: block;
+    height:32px;
+    width:832px;
+    margin-top: 15px;
+}
+.fc-practice-radio label:hover{
+    background:rgba(18,181,191,0.08);
+    border-radius:4px;
+}
+.fc-practice-radio label span{
+    padding-left: 16px;
+}
+.fc-practice-radio label:hover span{
+    color: #12b5bf;
+}
+
+/****试题尚未作答模态框的样式****/
+.modal-open>.modal>.modal-dialog{
+    width:440px;
+}
+.modal-open .modal-header{
+    border:none;
+    padding: 0;
+}
+.modal-open .modal-header>h4{
+    display: inline-block;
+    padding: 24px 0 0 40px;
+    font-family:PingFangSC-Semibold;
+    font-size:20px;
+    color:#333333;
+    letter-spacing:0;
+    line-height:32px;
+    text-align:left;
+    font-weight: bold;
+}
+.modal-open .modal-header button{
+    position: absolute;
+    top:20px;
+    right:20px;
+    z-index: 8;
+}
+.modal-open .modal-header button>span{
+    font-size: 30px;
+
+}
+.modal-open .modal-body{
+    padding: 0;
+}
+.modal-open .modal-row{
+    margin:24px 40px;
+    /*padding-top: 4px;*/
+}
+.modal-open .modal-body p{
+    font-family:PingFang-SC-Regular;
+    font-size:16px;
+    color:#333333;
+    letter-spacing:0;
+    line-height:28px;
+    text-align:left;
+}
+.modal-open #modal-footer-btn>button.fc-answer-cancel{
+    background:#ffffff;
+    border:1px solid #12b5bf;
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+    border-radius:24px;
+    width:118px;
+    height:38px;
+    font-family:PingFangSC-Semibold;
+    font-size:16px;
+    color:#12b5bf;
+    line-height:16px;
+    text-align:center;
+}
+.modal-open #modal-footer-btn>button.fc-answer-submit{
+    float: right;
+    background-image:linear-gradient(-180deg, #27e3c5 5%, #12b5bf 100%);
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+    border-radius:24px;
+    width:120px;
+    height:40px;
+    font-family:PingFangSC-Semibold;
+    font-size:16px;
+    color:#ffffff;
+    line-height:16px;
+    text-align:center;
+}
+.modal-open #modal-footer-btn>button.btn-primary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border:none !important;
+    cursor: pointer;
+}
+
+/***知识点视屏开始学习模态框样式***/
+.modal-open .fc-modal-start-btn{
+    min-height: 40px;
+    margin:27px 40px;
+}
+.modal-open #modal-footer-btn>button.fc-start-btn{
+    background-image:linear-gradient(-180deg, #27e3c5 5%, #12b5bf 100%);
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+    border-radius:24px;
+    width:120px;
+    height:40px;
+    font-family:PingFangSC-Semibold;
+    font-size:16px;
+    color:#ffffff;
+    line-height:16px;
+    text-align:center;
+    float: right;
+    border:none
+}
+
+
+/*****边学边练样式*****/
+
+.fc-practice-question,.fc-analysis{
+    width:800px;
+}
+.fc-analysis{
+    margin-top: 64px;
+}
+.fc-analysis>.fc-right-key,.fc-prompt,.fc-analyzie{
+    /*height:116px;*/
+    background:#ffffff;
+    box-shadow:0 0px 4px 0 rgba(0,0,0,0.10);
+    border-radius:2px;
+    width:800px;
+    padding-bottom: 24px;
+}
+.fc-analysis>.fc-right-key>h3{
+    font-family:PingFang-SC-Medium;
+    font-size:20px;
+    color:#666666;
+    letter-spacing:0;
+    line-height:24px;
+    text-align:left;
+    margin-left: 24px;
+    font-weight: bold;
+    padding-top: 24px;
+}
+.fc-analysis>.fc-right-key>p{
+    font-family:PingFang-SC-Regular;
+    font-size:16px;
+    color:#666666;
+    letter-spacing:0;
+    line-height:28px;
+    text-align:left;
+    margin-left: 24px;
+}
+.fc-prompt>span{
+    font-family:PingFang-SC-Medium;
+    font-size:20px;
+    color:#666666;
+    letter-spacing:0;
+    line-height:24px;
+    text-align:left;
+    font-weight: bold;
+}
+
+.fc-prompt{
+    padding: 24px;
+    margin-top: 24px;
+}
+.fc-prompt>li{
+    width:752px;
+    min-height: 56px;
+    margin-top: 16px;
+}
+.fc-prompt>li>p.fc-step-name{
+    display: inline-block;
+    font-family:PingFangSC-Regular;
+    font-size:12px;
+    color:#999999;
+    letter-spacing:0;
+    line-height:28px;
+    text-align:left;
+}
+.fc-prompt>li>span.fc-step-title{
+    width:688px;
+    float: right;
+    font-family:PingFang-SC-Regular;
+    font-size:16px;
+    color:#666666;
+    letter-spacing:0;
+    line-height:28px;
+    text-align:left;
+}
+i.fc-wrong{
+    color: #ff4081;
+}
+ i.fc-right{
+    color: #0bd29b;
+}
+.fc-analyzie>span{
+    font-family:PingFangSC-Medium;
+    font-size:20px;
+    color:#666666;
+    letter-spacing:0;
+    line-height:24px;
+    text-align:left;
+    font-weight: bold;
+}
+.fc-analyzie{
+    padding: 24px;
+    margin-top: 24px;
+}
+.fc-analyzie>p{
+    font-family:PingFang-SC-Regular;
+    font-size:16px;
+    color:#666666;
+    letter-spacing:0;
+    line-height:28px;
+    text-align:left;
+    margin-top: 16px;
+}
+.fc-submit-btn{
+    height:50px;
+    position: relative;
+    margin-top: 70px;
+}
+.fc-analysis-btn{
+    position: absolute;
+    right:0;
+    top:1px;
+    background-image:linear-gradient(-180deg, #27e3c5 5%, #12b5bf 100%);
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+    border-radius:24px;
+    width:240px;
+    height:48px;
+    border:none;
+    font-family:PingFangSC-Semibold;
+    font-size:16px;
+    color:#ffffff;
+    letter-spacing:0;
+    line-height:24px;
+}
+
+
+/****视频播放按钮的样式****/
+
+.vjs-big-play-button{
+    width:64px !important;
+    height:64px !important;
+    line-height: 64px !important;
+    line-height: 64px !important;
+    font-size: 35px !important;
+    border-radius: 100% !important;
+    left:50% !important;
+    top:50% !important;
+    margin-left: -32px;
+    margin-top: -32px;
+    /*opacity:0.25 !important;*/
+    /*background:#ffffff !important;*/
+}
+
+
+/******查看视频解析模态框样式****/
+
+.modal-video-open>.modal>.modal-dialog{
+
+}
+
+@media (min-width: 1280px){
+    .modal-video-open>.modal>.modal-dialog {
+        width: 1200px;
+        /*margin:0 83px;*/
+    }
+}
+@media (max-width: 1280px){
+    .modal-video-open>.modal>.modal-dialog {
+        margin:64px;
+        width:auto !important;
+    }
+    .my-video-dimensions,.my-video-dimensions{
+        width:auto !important;
+    }
+}
+/*@media (min-width: 1200px){*/
+    /*.modal-video-open>.modal>.modal-dialog {*/
+        /*width: 1200px !important;*/
+        /*!*margin:0 83px;*!*/
+    /*}*/
+/*}*/
+.modal-video-open .modal-content-video{
+    margin:24px 40px;
+}
+.modal-video-open .modal-content-video>h3{
+    font-family:PingFangSC-Semibold;
+    font-size:24px;
+    color:#333333;
+    letter-spacing:0;
+}
+.modal-video-open .modal-content-video>.modal-analyze-video{
+    margin-top: 16px;
+}
+.modal-video-open .modal-content-video>.modal-video-next{
+    height:52px;
+    margin-top: 24px;
+}
+.modal-video-open .modal-content-video>.modal-video-next>button{
+    background-image:linear-gradient(-180deg, #27e3c5 5%, #12b5bf 100%);
+    box-shadow:0 8px 8px 0 rgba(18,181,191,0.16);
+    border-radius:24px;
+    width:256px;
+    height:48px;
+    font-family:PingFang-SC-Semibold;
+    font-size:16px;
+    color:#ffffff;
+    letter-spacing:0;
+    line-height:16px;
+    border:none;
+    float: right;
+}

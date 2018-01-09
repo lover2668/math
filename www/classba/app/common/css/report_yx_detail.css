@@ -1,0 +1,271 @@
+body{
+    background: #FCFCFC;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", Arial, SimSun, sans-serif;
+}
+.nav-header{
+    width:100%;
+}
+#fc-header{
+    width:100%;
+    height: 200px;
+    background-image:linear-gradient(-180deg, #68e695 5%, #2dc893 100%);
+    position: relative;
+}
+.nav-header .fc-class-report{
+    position: absolute;
+    left:50%;
+    margin-left: -112px;
+    top:50px;
+}
+.nav-header .fc-class-report>p{
+    color:#ffffff;
+    text-align: center;
+}
+.nav-header .fc-class-report>p:nth-child(1){
+    font-size:32px;
+}
+.nav-header .fc-class-report>p:nth-child(2){
+    font-size: 24px;
+    margin-top: 10px;
+}
+.fc-report-content{
+    background:#ffffff;
+    border:1px solid #eaeaea;
+    box-shadow:0 0 4px 0 rgba(0,0,0,0.04);
+    border-radius:2px;
+    margin-top: 24px;
+}
+.fc-report-content>hr{
+    margin-top: 32px;
+}
+.fc-report-subject{
+    width:800px;
+    margin-left: 40px;
+}
+.fc-analysis-content{
+    background:#ffffff;
+    border:1px solid #ccf1f3;
+    border-radius:2px;
+}
+h1,h2,h3,hr{
+    margin:0;
+}
+.fc-report-subject>h2{
+    display: inline-block;
+    font-size:32px;
+    color:#333333;
+    margin-top: 32px;
+}
+.fc-report-subject ul.fc-report-subject-child{
+    margin:0;
+}
+.fc-report-subject ul.fc-report-subject-child>li{
+    font-size:14px;
+    color:#666666;
+    display: inline-block;
+    padding:0px 10px;
+    margin-top: 16px;
+
+}
+ul.answer-option li{
+    list-style: none;
+    font-size:16px;
+    letter-spacing:0;
+    line-height:28px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", Arial, SimSun, sans-serif;
+    text-align:justify;
+}
+ul.answer-option li.user_answer_error{
+    color:#ff4081;
+}
+ul.answer-option li.user_answer_right,ul.answer-option li.right_answer{
+    color:#0bd29b;
+}
+.fc-report-subject ul>li:nth-child(1){
+    padding-left: 0;
+    border-right: 1px solid #ccc;
+}
+.fc-report-subject ul>li:nth-child(2){
+    border-right: 1px solid #ccc;
+}
+.fc-report-subject .fc-page-look{
+    margin-top: 8px;
+    font-size:12px;
+    color:#666666;
+}
+.fc-report-subject .fc-page-look>p{
+    display: inline-block;
+}
+.fc-report-subject .fc-page-look>p>span:first-child{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    border-radius: 100%;
+    background:#ffffff;
+    border:1px solid #cccccc;
+    top:4px;
+    position: relative;
+    margin-left: 22px;
+    cursor: pointer;
+}
+.fc-report-subject .fc-page-look select{
+    display: block;
+    width: 96px;
+    height:32px;
+    background:#ffffff;
+    border:1px solid #eaeaea;
+    border-radius:4px;
+    font-size:14px;
+    color:#333333;
+}
+.fc-report-subject>.fc-ratio{
+    opacity:0.5;
+    background:#eeeeee;
+    width:100%;
+    height:32px;
+    font-size:14px;
+    color:#666666;
+    letter-spacing:0;
+    line-height:32px;
+    text-align:justify;
+    margin-top: 16px;
+}
+.fc-report-subject>.fc-ratio i{
+    font-size: 20px;
+}
+.fc-report-subject>.fc-ratio>span{
+    float: left;
+    margin-left: 16px;
+}
+.fc-report-subject>.fc-ratio>p{
+    margin:0;
+    float: right;
+    margin-right: 18px;
+}
+.fc-report-subject>.fc-ratio>p>span{
+    position: relative;
+    top:-2px;
+}
+.fc-analysis-content{
+    margin-top: 16px;
+}
+.fc-analysis-content .fc-question{
+    margin:24px;
+}
+.fc-analysis-content .fc-question>h3{
+    font-size:20px;
+    color:#666666;
+    font-weight:bold;
+}
+.fc-analysis-content .fc-question>p{
+    font-size:16px;
+    color:#666666;
+    margin-top: 16px;
+}
+.fc-analysis-content .fc-question>li{
+    width: 752px;
+    min-height: 56px;
+    margin-top: 16px;
+}
+.fc-analysis-content .fc-question>li>p{
+    display: inline-block;
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: left;
+
+}
+.fc-analysis-content .fc-question>li>span{
+    width: 688px;
+    /*float: right;*/
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: left;
+}
+.fc-analysis-coment{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+
+.nav-page-list{
+    position: relative;
+}
+.nav-page-list>ul{
+    min-height:40px;
+    margin:24px auto;
+    display: inline-block;
+    position: absolute;
+    width:666px;
+    left:50%;
+    margin-left: -333px;
+}
+.nav-page-list li{
+    cursor: pointer;
+}
+.nav-page-list li:last-child>i{
+    font-size: 18px;
+    color: #999;
+}
+.nav-page-list li>i.xx-icon{
+    font-size: 10px;
+}
+.nav-page-list li,.nav-page-list input,.nav-page-list>ul>span{
+    float: left;
+    margin-right:16px;
+}
+.nav-page-list li.default,.nav-page-list input,.nav-page-list li.unchecked{
+    background:#ffffff;
+    border-radius:20px;
+    width:40px;
+    height:40px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    border:1px solid #cccccc;
+    color: #ccc;
+}
+
+.nav-page-list span.xx-option{
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 10px;
+}
+.nav-page-list span.xx-test{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 14px;
+    color: #999;
+}
+.nav-page-list li.checked{
+    width:40px;
+    height:40px;
+    background: #68e695;
+    border-radius: 20px;
+    font-size:16px;
+    color:#ffffff;
+    letter-spacing:0;
+    line-height:35px;
+    text-align:center;
+}
+/*----icon----*/
+@font-face {
+    font-family: "yxiconfont";
+    src: url('../yx_font/iconfont.eot?t=1494812609203'); /* IE9*/
+    src: url('../yx_font/iconfont.eot?t=1494812609203#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../yx_font/iconfont.woff?t=1494812609203') format('woff'), /* chrome, firefox */ url('../yx_font/iconfont.ttf?t=1494812609203') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('../yx_font/iconfont.svg?t=1494812609203#yxiconfont') format('svg'); /* iOS 4.1- */
+}
+
+.xx-icon {
+    font-family: 'yxiconfont' !important;
+    font-size: 13px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.MJXc-display{
+    display: inline-block !important;
+}

@@ -1,0 +1,291 @@
+.content{
+    max-width: 1280px;
+    padding:20px 20px 20px 20px;
+    margin-top:20px;
+    border:1px solid #f4f4f4;
+    border-radius: 3px;
+    -moz-box-shadow:0px 0px 12px #707070; -webkit-box-shadow:0px 0px 12px #707070; box-shadow:0px 0px 12px #707070;
+    background-color: #ffffff;
+}
+.am-container, .am-g-fixed{
+    max-width: 1280px;
+}
+.am-g .am-g{
+    margin: 0;
+}
+.row{
+    margin: 0;
+}
+.form-control{
+    margin-left: 20px;
+}
+ul, ol{
+    margin-bottom: 1.6rem;
+}
+label{
+    font-size: 16px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0em 0.8em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    color: #333 !important;
+    border: 1px solid #979797;
+    background-color: #dcdcdc;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dcdcdc));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -moz-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* FF3.6+ */
+    background: -ms-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* IE10+ */
+    background: -o-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* Opera 11.10+ */
+    background: linear-gradient(to bottom, white 0%, #dcdcdc 100%);
+    /* W3C */
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table.dataTable thead th, table.dataTable thead td{
+    padding: 10px 5px;
+}
+table.dataTable thead .sorting div{
+    background-image:url("../lib/datatable/images/sort_both.png")  ;
+    background-position: 0% 90%;
+    background-repeat: no-repeat;
+}
+.table-orange{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background:#FFE368; /* 一些不支持背景渐变的浏览器 */
+    background:-moz-linear-gradient(top, #FFE368, #FFBa46);
+    background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#FFE368), to(#FFBa46))
+}
+.table-success{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background:#bfe178; /* 一些不支持背景渐变的浏览器 */
+    background:-moz-linear-gradient(top, #bfe178, #acc73a);
+    background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#bfe178), to(#acc73a))
+}
+.table-default{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background:#ebebeb; /* 一些不支持背景渐变的浏览器 */
+    background:-moz-linear-gradient(top, #ebebeb, #cccccc);
+    background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#ebebeb), to(#cccccc))
+}
+.table-danger{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background:#f36e6e; /* 一些不支持背景渐变的浏览器 */
+    background:-moz-linear-gradient(top, #f36e6e, #f04b4b);
+    background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#f36e6e), to(#f04b4b))
+}
+table.dataTable thead .sorting div.table-orange{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color: #FFBa46;
+    background-image:url("../lib/datatable/images/sort_both.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting div.table-success{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color:#acc73a;
+    background-image:url("../lib/datatable/images/sort_both.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting div.table-default{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color:#cccccc;
+    background-image:url("../lib/datatable/images/sort_both.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting div.table-danger{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color: #f36e6e;
+    background-image:url("../lib/datatable/images/sort_both.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_asc div.table-orange{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color: #FFBa46;
+    background-image:url("../lib/datatable/images/sort_asc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_asc div.table-success{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color:#acc73a;
+    background-image:url("../lib/datatable/images/sort_asc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_asc div.table-default{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color:#cccccc;
+    background-image:url("../lib/datatable/images/sort_asc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_asc div.table-danger{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color: #f36e6e;
+    background-image:url("../lib/datatable/images/sort_asc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_desc div.table-orange{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color: #FFBa46;
+    background-image:url("../lib/datatable/images/sort_desc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_desc div.table-success{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color:#acc73a;
+    background-image:url("../lib/datatable/images/sort_desc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_desc div.table-default{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color:#cccccc;
+    background-image:url("../lib/datatable/images/sort_desc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+table.dataTable thead .sorting_desc div.table-danger{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    font-weight: 300;
+    background-color: #f36e6e;
+    background-image:url("../lib/datatable/images/sort_desc.png")  ;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+input[type="search"]{
+    /*display: block;*/
+    /*width: 100%;*/
+    padding: 0.5em;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.btn{
+    padding:2px 4px 2px 6px;
+}
+.list-header h1{
+    font-size: 24px;
+    margin-top: 0px;
+}
+div.tab-cont .add{
+    width:21px;height:40px;
+    background:url("../images/08-question-card-tag.png");
+    float:right;
+    margin-right:1.3em;
+    margin-top:-0.6em;
+    cursor: pointer;
+}

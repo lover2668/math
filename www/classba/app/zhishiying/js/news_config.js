@@ -1,0 +1,47 @@
+/**
+ * Created by linxiao on 17/4/14.
+ */
+var news = [
+    {
+        "title":"【独家】乂学教育获得 1.2 亿元天使轮融资，AI 如何成为教育效率的加速器？",
+        "link":"http://36kr.com/p/5065129.html",
+        "img":"../../static/app/zhishiying/img/5652b03c5ea16.jpg",
+        "model":"lg"
+    },
+    {
+        "title":"朋友印象栗浩洋：人工智能可以帮你找到深层次的“灵魂伴侣”",
+        "link":"http://www.tmtpost.com/2542873.html",
+        "img":"../../static/app/zhishiying/img/413230412282305582.jpg",
+        "model":"md"
+    },
+    {
+        "title":"2016新浪教育盛典访谈：乂学教育周伟",
+        "link":"http://edu.sina.com.cn/l/2016-12-01/doc-ifxyiayq1964951.shtml",
+        "img":"../../static/app/zhishiying/img/zR7k-fxyiayq1964871.JPG",
+        "model":"md"
+    },
+    {
+        "title":"2016腾讯“回响中国”教育盛典——乂学托起AI时代",
+        "link":"http://www.toutiao.com/i6361258810786447874/?wxshare_count=2&from=singlemessage&pbid=31662769549&isappinstalled=0",
+        "img":"../../static/app/zhishiying/img/127b0004d312400c48bb.jpg",
+        "model":"md"
+    },
+    {
+        "title":"崔炜博士：智适应将会给教育带来“效率革命”",
+        "link":"http://mt.sohu.com/20160725/n460902461.shtml",
+        "img":"../../static/app/zhishiying/img/崔博士.jpg",
+        "model":"md"
+    },
+    {
+        "title":"不忘初心，爱心助学——智适应一周年“点对点爱心助学”正在行动",
+        "link":"http://sanwen.net/a/ybnknbo.html",
+        "img":"../../static/app/zhishiying/img/1262.jpg_wh1200.jpg",
+        "model":"md"
+    },
+    {
+        "title":"第一届智适应教育“人机对战”全国中学生挑战赛开赛",
+        "link":"http://mt.sohu.com/20160606/n453200372.shtml",
+        "img":"../../static/app/zhishiying/img/5652b03c5ea16.jpg",
+        "model":"md"
+    }
+]

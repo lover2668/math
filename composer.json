@@ -1,0 +1,9 @@
+{
+    "name": "math",
+    "description": "math lib",
+    "require": {
+        "php": ">=5.4.0",
+        "php-amqplib/php-amqplib": "v2.6.1",
+        "endroid/qrcode": "^2.2"
+    }
+}

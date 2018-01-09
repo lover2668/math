@@ -1,0 +1,55 @@
+/* Write your styles */
+/*继续按钮*/
+a.continue-topic{
+    background: url("../../images/01-continue.png") no-repeat;
+    background-position: 50% 50%;
+    /*background-repeat: no-repeat;*/
+    background-origin: border-box;
+
+    display: inline-block; width: 100px; height: 100px;
+    border-width: 50px;
+    border-color: rgba(0,0,0,0);
+
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+.continue-topic:hover,.continue-topic:focus{
+    transition: all .3s ease-in;
+    background: url("../../images/01-continue-clicked.png") no-repeat;
+}
+.amz-toolbar {
+    border: 1px solid #D8d8d8;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    z-index: 999;
+    padding: 10px 40px 10px 20px;
+    background: #D8d8d8;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    -moz-box-shadow: 0px 0px 12px #d8d8d8;
+    -webkit-box-shadow: 0px 0px 12px #d8d8d8;
+    box-shadow: 0px 0px 12px #d8d8d8;
+}
+.continue-topic {
+    width: 76px;
+    height: 76px;
+    cursor: pointer;
+    background: url("src/images/01-continue.png") no-repeat;
+}
+a.continue-topic:hover {
+    border-width: 0;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+a.continue-topic {border: 50px dashed rgba(0, 0, 0, 0.7);}

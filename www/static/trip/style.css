@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 794px;
+    margin: 0 auto;
+    font-family: '宋体';
+    font-size: 12px;
+    color: #444;
+}
+
+img {
+    /*width: 100%;*/
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+}
+
+table {
+    border: 0;
+    padding: 0;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: middle;
+    padding: 0;
+}
+
+.page_next {
+    page-break-after: always;
+    clear: both;
+}
+
+.main_color {
+    color: #02ABA4;
+}
+
+.main_bg_color {
+    background-color: #02ABA4;
+}
+
+#cover {
+    width: 100%;
+    height: 1090px;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover_top {
+    position: relative;
+    height: 613px;
+    width: 100%;
+}
+
+#cover_info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#cover_title {
+    position: absolute;
+    top: 205px;
+    left: 159px;
+    width: 476px;
+    z-index: 999;
+    text-align: center;
+}
+
+#cover_bottom {
+    position: relative;
+    width: 100%;
+    height: 507px;
+    background: #02ABA4 url(img/bg2.png) no-repeat;
+}
+
+.cover_bg {
+    background: #fff url(img/bg.png) repeat;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_center {
+    text-align: center;
+}
+
+table.info_table td {
+    padding: 10px;
+    font-size: 12px;
+}
+
+table.info_table td img {
+    width: 12px;
+}
+
+.page {
+    position: relative;
+    padding: 15px;
+}
+
+.page_title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    border-left: 6px solid #02ABA4;
+    margin: 0 0 15px 0;
+}
+
+.page_box {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+
+.page_box_inner {
+    padding: 15px 20px;
+}
+
+.page_box_text {
+    background-color: #E9FCFA;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.chart_div {
+    width: 50%;
+    float: left;
+}
+
+.text_label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.chart_title, .list_title {
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 2px;
+    border-left: 2px solid #666;
+    border-right: 2px solid #666;
+}
+
+.list_title {
+    margin: 20px;
+}
+
+.table_list {
+    width: 100%;
+    border: 0;
+}
+
+.table_list>thead>tr>th {
+    background-color: #00B0A6;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border: 0;
+}
+
+.table_list>tbody>tr>td {
+    padding: 8px;
+    text-align: center;
+}
+
+.table_stripped>tbody>tr:nth-child(odd)>td {
+    background-color: #E9FCFA;
+}
+
+.star>i, .star>span {
+    color: #00B0A6;
+}
+
+.main_color_border {
+    border-color: #02ABA4;
+}
+
+.table_legend td {
+    padding: 5px 20px;
+    color: #02ABA4;
+    line-height: 1.3;
+}
+
+.font_big {
+    font-size: 14px;
+}
+
+.font_bigger {
+    font-size: 16px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.page_index_wrap>ul>li {
+    float: left;
+    display: block;
+    width: 40px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.page_index_wrap>ul>li>span {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 30px;
+}
+
+.page_index_wrap>ul>li>span.li_up {
+    background-color: #00B0A6;
+    color: #fff;
+    line-height: 30px;
+}
+
+.page_index_wrap>ul>li:nth-child(odd)>span.li_up {
+    background-color: #16B6AE;
+}
+
+.page_index_wrap>ul>li>span.li_down {
+    line-height: 30px;
+}
+
+.wrong {
+    color: #EB4C35;
+    font-size: 16px;
+}
+
+.page_index_wrap>ul>li:nth-child(odd)>span.li_down {
+    background-color: #F3FCFB;
+}
+
+.page_box.no_padding {
+    padding: 0;
+}
+
+.right {
+    color: #10CE6E;
+    font-size: 16px;
+}
+
+.question_list {
+    padding: 0;
+    margin: 0;
+}
+
+.question_index {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #8DD7D6;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+span.border_span {
+    display: inline-block;
+    padding: 0 2px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+span.span_label, span.span_value {
+    display: block;
+    text-align: center;
+    font-size:16px;
+    margin:5px 0;
+}
+span.span_label{
+    color:#36C0BB;
+}

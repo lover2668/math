@@ -1,0 +1,110 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: yuan
+ * Date: 16/12/21
+ * Time: 下午7:29
+ */
+
+namespace service\services;
+
+use service\org\util\TpString;
+use service\algo\AlgoLogic;
+use  think\Db;
+use  think\Log;
+use think\Cache;
+
+class KnowledgeService
+{
+
+
+//    public function getKnowledgeList()
+//    {
+//
+//        $key = "knowledgeList";
+//        $return_data = Cache::get($key);
+//        if (!$return_data) {
+//            $url = self::$question_server_host . "index/api/getKnowledgeList";
+//            $return_data = rpc_request($url, array());
+//            Cache::set($key, $return_data, 3600 * 24);
+//        }
+//        return $return_data;
+//    }
+//
+//
+//    public function getKnowledgeByCode($knowledge)
+//    {
+//        $key = "knowledgeInfo:" . $knowledge;
+//        $return_data = Cache::get($key);
+//        if (!$return_data) {
+//            $param = array();
+//            //根据知识点获取试题.
+//            $url = self::$question_server_host . "index/api/getKnowledgeByCode";
+//            $return_data = rpc_request($url, $param);
+//            Cache::set($key, $return_data);
+//        }
+//        return $return_data;
+//
+//    }
+
+    /**
+     * 获取知识点列表信息。
+     * @return mixed
+     */
+    public function getKnowledgeList($topicId)
+    {
+        $topic_service = new TopicService();
+        $topic_list = $topic_service->getTopicByTopicId($topicId);
+        $knowledgeList = array();
+
+        echo "jin ali le ";
+
+        exit;
+        $kmap_code = $topic_list['kmap_code'];
+        $knowledgeList = $topic_list['knowledge_map'];
+        return $knowledgeList;
+    }
+
+
+    /**
+     * 根据知识图谱的Kmap_code获取知识图谱的知识点信息。
+     * @param $kmap_code
+     */
+    public function  getKnowledgeListByTopicId($topicId)
+    {
+        $topic_service = new TopicService();
+        $topic_list = $topic_service->getTopicByTopicId($topicId);
+        $knowledgeList = $topic_list['knowledge_map'];
+        return $knowledgeList;
+    }
+
+    /**
+     * 根据知识点编码获取知识点信息。
+     */
+    public function getKnowledgeByCode($tag_code,$topicId)
+    {
+        $topic_service = new TopicService();
+        $topic_list = $topic_service->getTopicByTopicId($topicId);
+        $knowledgeList = $topic_list['knowledge_map'];
+        $tag_info =  array();
+        foreach ($knowledgeList as $k =>$v)
+        {
+            if($v['tag_code'] == $tag_code)
+            {
+                $tag_info = $knowledgeList[$k];
+            }
+        }
+        if(empty($tag_info))
+        {
+            $tag_info['tag_code'] =  $tag_code;
+            $tag_info['tag_name'] =  "算法和接口反馈的知识点不符合";
+        }
+        return  $tag_info;
+    }
+
+
+
+
+
+
+}

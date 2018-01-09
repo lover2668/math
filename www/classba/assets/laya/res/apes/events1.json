@@ -1,0 +1,82 @@
+[
+  {
+    "title": "SP-HJ-E8",
+    "start": "2017-04-03T08:30:00",
+    "end": "2017-04-03T10:00:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 0,
+    "course": "64",
+    "total": 32
+  },
+  {
+    "title": "SP-HJ-E8asd",
+    "start": "2017-04-03T16:40:00",
+    "end": "2017-04-03T18:10:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 0,
+    "course": "64",
+    "total": 32
+  },
+  {
+    "title": "SP-HJ-E8",
+    "start": "2017-04-10T8:30:00",
+    "end": "2017-04-10T10:00:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 1,
+    "course": "64",
+    "total": 32
+  },
+  {
+    "title": "SP-HJ-E8",
+    "start": "2017-04-10T16:40:00",
+    "end": "2017-04-10T18:10:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 0,
+    "course": "64",
+    "total": 32
+  },
+  {
+    "title": "SP-HJ-E8",
+    "start": "2017-04-17T8:30:00",
+    "end": "2017-04-17T10:00:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 0,
+    "course": "64",
+    "total": 32
+  },
+  {
+    "title": "SP-HJ-E8",
+    "start": "2017-04-17T16:40:00",
+    "end": "2017-04-17T18:10:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 0,
+    "course": "64",
+    "total": 32
+  },
+  {
+    "title": "SP-HJ-E8",
+    "start": "2017-04-24T8:30:00",
+    "end": "2017-04-24T10:00:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 0,
+    "course": "64",
+    "total": 32
+  },
+  {
+    "title": "SP-HJ-E8",
+    "start": "2017-04-24T16:40:00",
+    "end": "2017-04-24T18:10:00",
+    "study_url": "",
+    "teacher": "\u738b\u4e1a\u5764\u8001\u5e08",
+    "status": 0,
+    "course": "64",
+    "total": 32
+  }
+]

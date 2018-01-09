@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../dist/css/wangEditor.min.css">
+    <link rel="stylesheet" href="js/extend/math_editor/style/formula-editor.css">
+</head>
+<body>
+<textarea id="div1" style="height:400px;">
+    <p>请输入内容...</p>
+</textarea>
+<p>You typed:</p>
+<div class="box" id="box" style="visibility:hidden">
+    <div id="MathOutput" class="output">\(\)</div>
+</div>
+<script type="text/javascript" src="js/extend/math_editor/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+</script>
+<script type="text/javascript" src="../dist/js/lib/jquery-1.10.2.min.js"></script>
+<!--<script type="text/javascript" src="../dist/js/wangEditor.min.js"></script>-->
+<script type="text/javascript" src="./js/wangEditor.js"></script>
+<!--<script src="./js/extend/math_editor/script/formula-editor.js"></script>-->
+<!--注意：editor.js一定要在wangEditor.min.js引用之后再引用-->
+<script type="text/javascript" src="js/extend/indent.js"></script>
+<script type="text/javascript" src="./js/extend/c.js"></script>
+<script type="text/javascript" src="./js/extend/editor.js"></script>
+<script type="text/javascript">
+    var editor = new wangEditor('div1');
+
+    editor.config.menus = [
+        'source',
+        '|',
+        'bold',
+        'underline',
+        'italic',
+        'strikethrough',
+        'eraser',
+        'forecolor',
+        'bgcolor',
+        '|',
+        'quote',
+        'fontfamily',
+        'fontsize',
+        'head',
+        'unorderlist',
+        'orderlist',
+        'alignleft',
+        'aligncenter',
+        'alignright',
+        '|',
+        'link',
+        'unlink',
+        'table',
+        'emotion',
+        '|',
+        'img',
+        'video',
+        'location',
+        'insertcode',
+        '|',
+        'undo',
+        'redo',
+        'fullscreen',
+        // 通过自定义菜单，让新配置的菜单显示在页面中。
+        // 上文已经确定，新配置的『缩进』菜单id为 'indent'
+        'indent',
+        'symbol','editor'
+    ];
+
+    editor.create();
+</script>
+<script>
+    //
+    //  Use a closure to hide the local variables from the
+    //  global namespace
+    //
+    (function () {
+        var QUEUE = MathJax.Hub.queue;  // shorthand for the queue
+        var math = null, box = null;    // the element jax for the math output, and the box it's in
+
+        //
+        //  Hide and show the box (so it doesn't flicker as much)
+        //
+        var HIDEBOX = function () {box.style.visibility = "hidden"}
+        var SHOWBOX = function () {box.style.visibility = "visible"}
+
+        //
+        //  Get the element jax when MathJax has produced it.
+        //
+        QUEUE.Push(function () {
+            math = MathJax.Hub.getAllJax("MathOutput")[0];
+            box = document.getElementById("box");
+            SHOWBOX(); // box is initially hidden so the braces don't show
+        });
+
+        //
+        //  The onchange event handler that typesets the math entered
+        //  by the user.  Hide the box, then typeset, then show it again
+        //  so we don't see a flash as the math is cleared and replaced.
+        //
+        window.UpdateMath = function (TeX) {
+            QUEUE.Push(HIDEBOX,["Text",math,"\\displaystyle{"+TeX+"}"],SHOWBOX);
+        }
+    })();
+</script>
+<script>
+    //
+    //  IE doesn't fire onchange events for RETURN, so
+    //   use onkeypress to do a blur (and refocus) to
+    //   force the onchange to occur
+    //
+    if (MathJax.Hub.Browser.isMSIE) {
+        MathInput.onkeypress = function () {
+            if (window.event && window.event.keyCode === 13) {this.blur(); this.focus()}
+        }
+    }
+</script>
+
+</body>
+</html>

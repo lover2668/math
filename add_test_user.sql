@@ -1,0 +1,1 @@
+INSERT INTO `ct_user` (`id`, `username`, `password`, `code`,`type`, `is_del`, `status`, `remark`, `ctime`, `utime`) VALUES(NULL, 'lifei1', 'bf63069b47376816b4d9ae09a6ad2ade', 'wbv5', '3','0', '1', '测试帐号', '1472455368', '0')

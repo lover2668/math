@@ -1,0 +1,206 @@
+.navbar-default .navbar-nav>li>a{
+    color: #333333;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+@media (min-width: 1200px) {
+
+    .navbar-yx{
+        background: #ffffff;
+        border: none;
+        height: 110px;
+        font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .navbar-yx .navbar-header .logo-img{
+        background: url("../img/yx-logo.png") no-repeat ;
+        width: 205px;
+        height: 55px;
+        margin-top: 23px;
+    }
+    #menu-mainmenu {
+        margin-left: 120px;
+    }
+    #menu-mainmenu li{
+        height: 110px;
+        width: 90px;
+        padding-top: 45px;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: all 150ms ease-in-out;
+        -moz-transition: all 150ms ease-in-out;
+        -ms-transition: all 150ms ease-in-out;
+        -o-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    }
+    #menu-mainmenu li a{
+        font-size: 16px;
+        padding: 0;
+        display:inline-block;
+    }
+
+    #menu-mainmenu li.active,#menu-mainmenu li:hover{
+        background: #18D3B4;
+        text-align: center;
+    }
+    #menu-mainmenu li.active a,#menu-mainmenu li:hover a{
+        color: #ffffff;
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 10px;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        background: none;
+        color: #ffffff;
+    }
+    .navbar-right{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+@media (min-width:996px)and (max-width: 1200px) {
+    .navbar-yx{
+        background: #ffffff;
+        border: none;
+        height: 110px;
+        font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .navbar-yx .navbar-header .logo-img{
+        background: url("../img/yx-logo.png") no-repeat ;
+        width: 205px;
+        height: 55px;
+        margin-top: 23px;
+    }
+    #menu-mainmenu {
+        margin-left: 20px;
+    }
+    #menu-mainmenu li{
+        height: 110px;
+        width: 90px;
+        padding-top: 45px;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: all 150ms ease-in-out;
+        -moz-transition: all 150ms ease-in-out;
+        -ms-transition: all 150ms ease-in-out;
+        -o-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    }
+    #menu-mainmenu li a{
+        font-size: 16px;
+        padding: 0;
+        display:inline-block;
+    }
+
+    #menu-mainmenu li.active,#menu-mainmenu li:hover{
+        background: #18D3B4;
+        text-align: center;
+    }
+    #menu-mainmenu li.active a,#menu-mainmenu li:hover a{
+        color: #ffffff;
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 10px;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        background: none;
+        color: #ffffff;
+    }
+    .navbar-right{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+@media (min-width:772px)and (max-width: 995px) {
+    .navbar-yx{
+        background: #ffffff;
+        border: none;
+        height: 110px;
+        font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .navbar-header{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .navbar-yx .navbar-header .logo-img{
+        background: url("../img/yx-logo.png") no-repeat ;
+        width: 205px;
+        height: 55px;
+        margin-top: 23px;
+    }
+    #menu-mainmenu {
+        margin-left: 20px;
+    }
+    #menu-mainmenu li{
+        height: 110px;
+        width: 90px;
+        padding-top: 45px;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: all 150ms ease-in-out;
+        -moz-transition: all 150ms ease-in-out;
+        -ms-transition: all 150ms ease-in-out;
+        -o-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    }
+    #menu-mainmenu li a{
+        font-size: 16px;
+        padding: 0;
+        display:inline-block;
+    }
+
+    #menu-mainmenu li.active,#menu-mainmenu li:hover{
+        background: #18D3B4;
+        text-align: center;
+    }
+    #menu-mainmenu li.active a,#menu-mainmenu li:hover a{
+        color: #ffffff;
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 10px;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        background: none;
+        color: #ffffff;
+    }
+    .navbar-right{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 772px) {
+    .container{
+        padding: 0;
+        /*background: #18D3B4;*/
+    }
+    .title b{
+        display: none;
+    }
+    .navbar-default{
+        background-color: #18D3B4;
+    }
+    .navbar-default .navbar-toggle{
+        border-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #ffffff;
+    }
+    #menu-mainmenu li a{
+        font-size: 16px;
+        /*background-color: #ffffff;*/
+        /*padding: 0;*/
+        /*display:inline-block;*/
+    }
+
+    #menu-mainmenu li.active,#menu-mainmenu li:hover{
+        background: #18D3B4;
+        /*text-align: center;*/
+    }
+    #menu-mainmenu li.active a,#menu-mainmenu li:hover a{
+        color: #ffffff;
+        border-bottom: 2px solid #ffffff;
+        /*padding-bottom: 10px;*/
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        background-color:#18D3B4;
+    }
+}

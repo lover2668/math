@@ -1,0 +1,207 @@
+*{
+    font-family: "Microsoft Yahei"
+}
+.title-wrap {
+    background-color: #ffffff;
+    border: 1px dashed rgba(95,95,95,0.25);
+    border-radius: 6px;
+    max-height: 338px;
+    overflow: scroll;
+}
+.ww-question-wrap{
+    background-color: #f9fcff;
+    border: 1px dashed rgba(95,95,95,0.25);
+    border-radius: 6px;
+}
+/*.xx-question-title{*/
+    /*border: 1px dashed rgba(95,95,95,0.25);*/
+    /*border-radius: 6px;*/
+
+/*}*/
+.xx-question-content .ww-question-sheet{
+    height: 330px;
+}
+.xx-question-reading-sheet .xx-question-title .reading-title{
+    font-family: "Microsoft Yahei";
+    font-size:14px;
+    color:#0063ac;
+    font-weight: bold;
+}
+
+.xx-question-reading-sheet .xx-question-title .main-text {
+    line-height: 35px;
+}
+
+.xx-question-reading-sheet{
+    min-height: 768px;
+    margin-left: 40px;
+}
+
+.title-wrap{
+    max-height: 555px;
+    overflow:auto;
+}
+
+.xx-question-reading-sheet .xx-question-title{
+    max-height: 557px;
+    overflow:auto;
+}
+.xx-question-content .ww-question-wrap .ww-question{
+
+    font-size: 14px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.xx-question-content .ww-question-right-click *{
+    display: inline;
+    vertical-align: middle;
+}
+.xx-question-content .ww-question-right-click .ww-question-click{
+    font-size:14px;
+    color:#0063ac;
+    line-height:25px;
+}
+.xx-question-reading-sheet .first-title{
+    font-size:16px;
+    color:#5f5f5f;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+textarea{
+    background:#ffffff;
+    border:1px dashed rgba(151,151,151,0.38);
+    border-radius:6px;
+    max-height:330px;
+    overflow: auto;
+}
+.title-wrap{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+/*testa style end*/
+
+/*testa report style start*/
+
+.ww-report-wrap{
+    background:#ebf2f9;
+    border-radius:6px;
+    border:1px dashed rgba(151,151,151,0.38);
+    height: 588px;
+    min-width: 365px;
+}
+.ww-report-list-wrap{
+    background:#ffffff;
+    border-radius:6px;
+    border:1px dashed rgba(151,151,151,0.38);
+    height: 525px;
+    overflow: auto;
+}
+/*表格颜色*/
+.am-table-striped>tbody>tr:nth-child(odd)>td, .am-table-striped>tbody>tr:nth-child(odd)>th{
+    background-color: #f2f7fb;
+}
+.ww-report-table  .table-highlight{
+    color: #0063ac;
+    font-weight: bold;
+}
+.am-table>thead>tr>th{
+    vertical-align: middle;
+}
+.am-table>tbody>tr:nth-child(even){
+    background-color:rgba(242,247,251,0.5);
+}
+.am-table>tbody>tr{
+    border:1px solid #eaedf4;
+}
+
+/*左侧变色龙*/
+.ww-report-wrap{
+    text-align: center;
+}
+.report-top{
+    height: 125px;
+}
+
+/*考查知识点样式*/
+.rp-zhishidian{
+    font-size:24px;
+    color:#0E5CAD ;
+    font-weight: bold;
+    margin-top: 13px;
+}
+/*时间样式*/
+
+.bsl-back{
+    height: 500px;
+}
+.text-time{
+    position: absolute;
+    left: 120px;
+    top: 20px;
+    z-index: 999
+}
+
+/*分割线*/
+.hr-dashed{
+    opacity:0.49;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 15px;
+}
+/*先行测试报告页*/
+.pingding-wrap{
+    background-color: #ffffff;
+}
+.pingding-content{
+    height: 200px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-family:MicrosoftYaHeiMono;
+    font-size:14px;
+    color:#0063ac;
+    text-align:left;
+    z-index: 999;
+}
+.xxcs-shuzhi-wrap {
+    min-width: 260px;
+    position: absolute;
+    text-align:center;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+.xx-shuzhi{
+
+}
+.shuzhi-active{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.xxcs-shuzhi-content{
+    margin-top: 40px;
+}
+.xxcs-main{
+    min-width: 260px;
+    text-align: center;
+}
+.xxcs-zhengdalv,.xxcs-yongshi{
+    width:45%;float: left;
+}
+.xxcs-yongshi{
+    margin-left: 25px;
+}
+.ww-report-wrap .bianselong-back{
+    text-align: left;
+    font-size: 46px;
+}
+.bsl-xxcs-back{
+    position: absolute;
+    left: -15px;
+    z-index: -1;
+}
